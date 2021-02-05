@@ -308,7 +308,7 @@ class IntegerField(ChoicesField[int]):
 
 
 class DecimalField(ChoicesField[Decimal]):
-    def __init__(self, max_length=None, decimals=2, **kw):
+    def __init__(self, max_length=None, decimals=5, **kw):
         super().__init__(**kw)
         self.max_length = max_length
         self.decimals = decimals

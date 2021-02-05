@@ -5,14 +5,14 @@ with open("README.md", "r") as fp:
     long_description = fp.read()
 
 setup(
-    name="a38",
+    name="a38-decimal",
     version="0.1.3",
     description="parse and generate Italian Fattura Elettronica",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author="Enrico Zini",
-    author_email="enrico@truelite.it",
-    url="https://github.com/Truelite/python-a38/",
+    author="Be20",
+    author_email="web@be20.it",
+    url="https://github.com/gianpieropa/python-a38",
     license="https://www.apache.org/licenses/LICENSE-2.0.html",
     packages=["a38"],
     scripts=["a38tool"],
